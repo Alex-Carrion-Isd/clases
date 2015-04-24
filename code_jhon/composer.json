@@ -1,0 +1,15 @@
+{
+	"description" : "The CodeIgniter framework",
+	"name" : "codeigniter/framework",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2.4",
+		"illuminate/database": "4.2.6"
+	},
+	
+	"autoload": {
+        "classmap": [
+            "application/models"
+                    ]
+    	}
+}
